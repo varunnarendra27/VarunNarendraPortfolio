@@ -16,6 +16,7 @@ html{
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
+
 ::-webkit-scrollbar-thumb {
     background: #888;
 }
@@ -75,6 +76,7 @@ section .title::after{
 /* navbar styling */
 .navbar{
     position: fixed;
+    background-color: rgb(35, 35, 35);;
     width: 100%;
     z-index: 999;
     padding: 30px 0;
@@ -91,7 +93,7 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: rgb(76, 76, 76);
+    color: rgb(255, 255, 255);
     font-size: 35px;
     font-weight: 600;
 }
@@ -372,7 +374,7 @@ section .title::after{
 }
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "Collaborators";
 }
 .teams .carousel .card{
     background: #222;
@@ -608,7 +610,7 @@ footer span a:hover{
         flex: 100%;
     }
     .services .serv-content .card{
-        width: calc(50% - 10px);
+        width: calc(50% - 50px);
         margin-bottom: 20px;
     }
     .skills .skills-content .column,
